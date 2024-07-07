@@ -3,7 +3,6 @@ VACIO = " "
 PRIMER_SIMBOLO = "X"
 SEGUNDO_SIMBOLO = "O"
 
-# holaa
 
 def crear_tablero(n_filas: int, n_columnas: int) -> List[List[str]]:
     """Crea un nuevo tablero de cuatro en línea, con dimensiones
@@ -12,8 +11,7 @@ def crear_tablero(n_filas: int, n_columnas: int) -> List[List[str]]:
     valores de la lista de listas son las siguientes:
         - Celda vacía: ' '
         - Celda con símbolo X: 'X'
-
-        - Celda con símbolo O: 'O '
+        - Celda con símbolo O: 'O'
 
     PRECONDICIONES:
         - n_filas y n_columnas son enteros positivos mayores a tres.
